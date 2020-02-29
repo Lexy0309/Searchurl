@@ -9,8 +9,8 @@ function searchUrl(query) {
 
     var urlTemplate = "https://www.googleapis.com/customsearch/v1?key=%KEY%&cx=%CX%&alt=json&num=10&start=%INDEX%&q=%Q%";
     var array_result = [];
-    var ApiKey = "AIzaSyCjJ3APPpbvgo6V8oCsUxHKjI9jWWwcytM";
-    var searchEngineID = "012281979910375425628:egterfpnyln";
+    var ApiKey = "APIKEY";
+    var searchEngineID = "SEARCHENGINE_ID";
     var range = sheet.getDataRange();
     var values = range.getValues();
     var range_1 = sheet.getRange("Keywords!A1:A200");
